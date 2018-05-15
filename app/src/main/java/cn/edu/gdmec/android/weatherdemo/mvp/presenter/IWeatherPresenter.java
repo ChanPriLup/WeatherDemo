@@ -5,4 +5,5 @@ package cn.edu.gdmec.android.weatherdemo.mvp.presenter;
  */
 
 public interface IWeatherPresenter {
+    void loadWeather(String city);
 }

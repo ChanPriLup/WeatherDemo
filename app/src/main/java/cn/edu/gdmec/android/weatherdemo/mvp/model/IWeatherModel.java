@@ -5,4 +5,5 @@ package cn.edu.gdmec.android.weatherdemo.mvp.model;
  */
 
 public interface IWeatherModel {
+    void loadWeather(String url,ILoadListener loadListener);
 }
