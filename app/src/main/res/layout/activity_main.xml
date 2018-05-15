@@ -5,10 +5,33 @@
     android:gravity="center|top"
     android:orientation="vertical" >
 
-    <TextView
+    <Button
+        android:id="@+id/btn_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        />
+        android:text="点击查询广州天气"/>
 
+    <Button
+        android:id="@+id/btn__beijing_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击查询北京天气"/>
+
+    <TextView
+        android:id="@+id/tv_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_yesterday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_forecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
 </LinearLayout>
